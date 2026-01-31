@@ -18,3 +18,4 @@ Node terminal inline to play around with redis
 6. get a KV pair - `redis.get('hi', (err, val) => console.log(err,val));`
 7. hash a KV Pair - `redis.hset('german', 'red','rot');`
 8. get a hashed KV pair - `redis.hget('german', 'red', console.log)`
+9. client.flushAll() - flushes all the stored contents in the memory of redis, essentially like rebooting the memory
