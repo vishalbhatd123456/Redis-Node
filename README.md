@@ -19,3 +19,4 @@ Node terminal inline to play around with redis
 7. hash a KV Pair - `redis.hset('german', 'red','rot');`
 8. get a hashed KV pair - `redis.hget('german', 'red', console.log)`
 9. client.flushall() - flushes all the stored contents in the memory of redis, essentially like rebooting the memory
+10.  client.set('color','red','EX',5) - automatically changes the cache to expire after 5s
